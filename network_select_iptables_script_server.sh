@@ -82,10 +82,10 @@ FORWARD_SERVICES_TCP_INTERNAL="80 443 515 631 3389 5900 8085 9100"
 														# only working with tap, tun cannot multicast / bonjour
 														# printer has to be connected via ip for tun connections
 #       qnap-ts412 admin        		TCP             8085
-#		cups							TCP				631 
-#		cups							UDP				5353
-# 		git								TCP				9418
-#		gpg								TCP				11371
+#		cups				TCP		631 
+#		cups				UDP		5353
+# 		git				TCP		9418
+#		gpg				TCP		11371
 
 
 
