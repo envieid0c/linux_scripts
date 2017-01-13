@@ -78,9 +78,9 @@ FORWARD_SERVICES_TCP_INTERNAL="80 443 515 631 3389 5900 8085 9100"
 #       http / https            		TCP             80 443
 #       remote desktop          		TCP             3389, 49000:50000
 #       lexmark printer         		TCP             80 443 515 631 9100 50000:60000
-#       printer, bonjour, mdns, avahi	UDP				5353
-														# only working with tap, tun cannot multicast / bonjour
-														# printer has to be connected via ip for tun connections
+#       printer, bonjour, mdns, avahi	UDP			5353
+# only working with tap, tun cannot multicast / bonjour
+# printer has to be connected via ip for tun connections
 #       qnap-ts412 admin        		TCP             8085
 #		cups				TCP		631 
 #		cups				UDP		5353
